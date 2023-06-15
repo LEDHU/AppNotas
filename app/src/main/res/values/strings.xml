@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete">Delete</string>
+    <string name="paragraph_about_me_Arthur">Olá, meu nome é Arthur Franco. Estou cursando o quinto 5º período de ciência da computação. Meus hobbies são provavelmente algo que envolva tecnologia ou leitura. Sempre tive até hoje gosto de tentar aprender ou ver diversas coisas. Espero um dia alcançar o meu melhor.</string>
+    <string name="name_arthur">Arthur Franco Lopes da Cruz</string>
+    <string name="contact_arthur">Contate-me:</string>
+    <string name="github_arthur">https://github.com/ArthurF36</string>
+    <string name="GitHubName_arthur">GitHub:</string>
+    <string name="NameLinkedin_arthur">Linkedin:</string>
+    <string name="Linkedin_arthur">https://www.linkedin.com/in/arthur-franco-956031278/</string>
+</resources>

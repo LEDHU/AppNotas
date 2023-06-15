@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp"
+            android:background="@drawable/arthur_background">
+
+
+        <ImageView
+        android:id="@+id/photo_arthur"
+        android:layout_width="176dp"
+        android:layout_height="148dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_arthur" />
+
+    <TextView
+        android:id="@+id/name_arthur"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_below="@id/photo_arthur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/name_arthur"
+        android:textColor="@color/color2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/paragraph_arthur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paragraph_about_me_Arthur"
+        android:layout_below="@id/name_arthur"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/links_arthur"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paragraph_arthur"
+        android:background="#3CF1EBF1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/contact_arthur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_arthur"
+            android:textColor="@color/color2"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/link1_arthur"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/links_arthur"
+        android:background="#3CF1EBF1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/GitHubName_arthur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GitHubName_arthur"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/GitHub_arthur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/github_arthur"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/link2_arthur"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link1_arthur"
+        android:background="#3CF1EBF1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/LinkedinName_arthur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NameLinkedin_arthur"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/Linkedin_arthur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/Linkedin_arthur"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</RelativeLayout></ScrollView>
